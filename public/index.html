@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<!--    <link rel="stylesheet" href="%PUBLIC_URL%/fonts.css">-->
+    <link rel="icon" href="./winter.png" sizes="16x16"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <style>
+      #back{
+        width: 0;
+        height: 0;
+        position: absolute;
+        /*display: block;*/
+        top: 0;
+        left: 0;
+        z-index:0;
+      }
+    </style>
+    <!-- 点击特效  -->
+    <script defer src="./click-js.js" ></script>
+    <!-- 背景特效 -->
+<!--    <script defer src="./back-img.js" ></script>-->
+    <title>温故知新</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <canvas id="back"></canvas>
+  </body>
+</html>
